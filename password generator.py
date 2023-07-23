@@ -3,8 +3,9 @@ import random as rd
 def generer_passord():
     små_bokstaver = "abcdefghijklmnopqrstuvwxyzæøå"
     store_bokstaver = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"
-    tegn = "!#$%&/=?+"
-    alle_tegn = små_bokstaver + store_bokstaver + tegn
+    tegn = "!#$%&/=?+@"
+    tall = "0123456789"
+    alle_tegn = små_bokstaver + store_bokstaver + tegn + tall
     lengde = 19
 
     passord = ""
